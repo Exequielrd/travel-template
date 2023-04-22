@@ -8,13 +8,15 @@ import bgImage2 from '/src/assets/card-image-2.png'
 
 <template>
   <section class="relative container mx-auto flex flex-col items-center">
-    <div class="flex gap-5 justify-center z-30 absolute top-[-200px] left-1/2 right-1/2">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:absolute gap-5 justify-center z-30 top-[-200px] left-1/2 right-1/2"
+    >
       <SimpleCard v-for="i in 3" :key="i" />
     </div>
-    <h2 class="text-5xl text-center w-[30ch] mt-28">
+    <h2 class="text-5xl text-center max-w-[30ch] mt-28">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </h2>
-    <p class="w-[65ch] text-center my-8 text-grey">
+    <p class="max-w-[65ch] text-center my-8 text-grey">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ratione culpa. Magnam
       veritatis aperiam odio, a beatae illo voluptatum neque.
     </p>

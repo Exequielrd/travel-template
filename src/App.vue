@@ -7,8 +7,8 @@ import CardsSection from './components/sections/CardsSection.vue'
 </script>
 
 <template>
-  <main class="bg-purple text-white">
-    <NavMenu />
+  <NavMenu />
+  <main class="bg-purple text-white px-3">
     <HeroSection />
     <GridSection />
     <PeopleSection />
