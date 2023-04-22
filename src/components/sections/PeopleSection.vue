@@ -1,14 +1,15 @@
 <script setup></script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green"></h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+  <section class="greetings bg-[url('people-bg.png')] min-h-[70vh]">
+    <div class="container mx-auto text-center py-40 flex flex-col items-center">
+      <h2 class="text-5xl font-bold">Lorem ipsum dolor.</h2>
+      <p class="text-xl mt-10 mb-20 max-w-[60ch] text-grey">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ratione culpa. Magnam
+        veritatis aperiam
+      </p>
+    </div>
+  </section>
 </template>
 
 <style scoped></style>
