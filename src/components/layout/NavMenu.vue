@@ -7,9 +7,9 @@
       <nav class="hidden md:flex items-center gap-6">
         <ul class="flex gap-6">
           <li>Home</li>
-          <li>Link</li>
-          <li>Link</li>
-          <li>Link</li>
+          <li>About Us</li>
+          <li>Contact</li>
+          <li>Newsletter</li>
         </ul>
       </nav>
     </div>

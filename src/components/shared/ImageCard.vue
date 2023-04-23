@@ -12,7 +12,7 @@ defineProps({
 </script>
 <template>
   <div
-    class="rounded-md w-[300px] bg-no-repeat bg-cover p-5 flex flex-col justify-between"
+    class="rounded-md w-[300px] bg-no-repeat bg-cover p-5 flex flex-col justify-between cursor-pointer hover:scale-105 ease-in-out"
     :style="{ height: height, backgroundImage: `url(${bg})` }"
   >
     <div>
