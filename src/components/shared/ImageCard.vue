@@ -16,12 +16,15 @@ defineProps({
     :style="{ height: height, backgroundImage: `url(${bg})` }"
   >
     <div>
-      <h2 class="text-2xl font-bold">Lorem ipsum</h2>
-      <p class="text-grey text-xl my-5">Lorem ipsum dolor sit amet consectetur</p>
+      <h2 class="text-2xl font-bold capitalize">Lorem ipsum</h2>
+      <p class="text-grey text-lg mt-2">Lorem ipsum dolor sit amet consectetur</p>
     </div>
-
-    <div>
-      <p class="text-grey text-xl my-5">Lorem ipsum</p>
+    <div class="flex gap-2 items-center">
+      <div class="w-[40px] aspect-square bg-grey rounded-full"></div>
+      <div>
+        <p class="text-white text-md font-bold">Lorem ipsum</p>
+        <p class="text-grey text-sm">Lorem ipsum</p>
+      </div>
     </div>
   </div>
 </template>

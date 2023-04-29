@@ -1,6 +1,7 @@
 <script setup>
 import CallToAction from '../shared/CallToAction.vue'
 </script>
+
 <template>
   <section class="container mx-auto flex flex-col items-center justify-center min-h-screen">
     <div class="max-w-[800px] text-center z-20">
