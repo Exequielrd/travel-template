@@ -13,10 +13,10 @@ import bgImage2 from '/src/assets/card-image-2.png'
     >
       <SimpleCard v-for="i in 3" :key="i" />
     </div>
-    <h2 class="text-5xl text-center max-w-[30ch] mt-28">
+    <h2 class="text-5xl text-center max-w-[35ch] mt-28">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </h2>
-    <p class="max-w-[65ch] text-center my-8 text-grey">
+    <p class="max-w-[65ch] text-center my-8 text-grey text-xl">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ratione culpa. Magnam
       veritatis aperiam odio, a beatae illo voluptatum neque.
     </p>
@@ -37,5 +37,3 @@ import bgImage2 from '/src/assets/card-image-2.png'
     <CallToAction />
   </section>
 </template>
-
-<style scoped></style>
