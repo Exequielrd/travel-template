@@ -4,7 +4,7 @@ import CallToAction from '../shared/CallToAction.vue'
 
 <template>
   <footer class="bg-purple py-20 px-5 text-white flex flex-col items-center">
-    <div class="container flex justify-between items-center">
+    <div class="container flex flex-col md:flex-row justify-between items-center">
       <div>
         <div class="flex gap-5 items-center mb-5">
           <div class="aspect-square bg-orange w-[30px] rounded-full"></div>
@@ -12,13 +12,15 @@ import CallToAction from '../shared/CallToAction.vue'
         </div>
         <CallToAction />
       </div>
-      <ul class="flex flex-col text-center gap-3 font-semibold text-grey justify-center">
+      <ul
+        class="flex flex-col text-center gap-3 font-semibold text-grey justify-center my-10 md:my-0"
+      >
         <li class="cursor-pointer border-b border-transparent hover:border-white">Home</li>
         <li class="cursor-pointer border-b border-transparent hover:border-white">About us</li>
         <li class="cursor-pointer border-b border-transparent hover:border-white">Contact</li>
       </ul>
       <div class="flex justify-between mt-10">
-        <span class="text-md"> made by @exequielrd </span>
+        <span class="text-md">Made by @exequielrd</span>
       </div>
     </div>
   </footer>
