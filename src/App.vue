@@ -17,5 +17,3 @@ import CardsSection from './components/sections/CardsSection.vue'
   </main>
   <Footer />
 </template>
-
-<style></style>
