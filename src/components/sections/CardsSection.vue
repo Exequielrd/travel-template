@@ -1,5 +1,7 @@
 <script setup></script>
 
 <template>
-  <div></div>
+  <div class="w-full min-h-[70vh]">
+    <h2>Proximamente</h2>
+  </div>
 </template>
