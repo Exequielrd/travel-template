@@ -1,5 +1,6 @@
 <script setup>
 import SimpleCard from '../shared/SimpleCard.vue'
+import CTA from '../shared/CallToAction.vue'
 </script>
 
 <template>
@@ -12,5 +13,6 @@ import SimpleCard from '../shared/SimpleCard.vue'
     <div class="flex gap-5">
       <SimpleCard v-for="i of 3" :key="i" />
     </div>
+    <CTA class="mt-10" />
   </div>
 </template>
