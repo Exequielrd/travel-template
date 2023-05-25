@@ -6,7 +6,7 @@ import CTA from '../shared/CallToAction.vue'
 <template>
   <div class="w-full min-h-[70vh] flex flex-col justify-center items-center">
     <h2 class="text-4xl font-bold text-center">Lorem ipsum dolor.</h2>
-    <p class="text-center text-lg mt-5 mb-10 max-w-[65ch]">
+    <p class="text-center text-lg mt-5 mb-14 max-w-[65ch]">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ratione culpa. Magnam
       veritatis aperiam
     </p>
