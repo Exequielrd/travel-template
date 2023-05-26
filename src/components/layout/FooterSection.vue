@@ -10,7 +10,7 @@ import CallToAction from '../shared/CallToAction.vue'
           <div class="aspect-square bg-orange w-[30px] rounded-full"></div>
           <h2 class="text-xl font-light">Travel Template</h2>
         </div>
-        <CallToAction />
+        <CallToAction outlined />
       </div>
       <ul
         class="flex flex-col text-center gap-3 font-semibold text-grey justify-center my-10 md:my-0"
