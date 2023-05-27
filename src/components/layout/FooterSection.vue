@@ -20,7 +20,7 @@ import CallToAction from '../shared/CallToAction.vue'
         <li class="cursor-pointer border-b border-transparent hover:border-white">Contact</li>
       </ul>
       <div class="flex justify-between mt-10">
-        <span class="text-md">Made by @exequielrd</span>
+        <span class="text-md font-semibold">Made by @exequielrd</span>
       </div>
     </div>
   </footer>
